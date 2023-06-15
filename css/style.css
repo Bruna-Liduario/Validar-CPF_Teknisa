@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+
+
+}
+
+.body {
+    background: linear-gradient(#87ceeb, #a13569);
+    /*gradiente linear como plano de fundo*/
+}
+
+
+.body input {
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.body button {
+    border: 2px solid #1e1f1e;
+    /* define a borda do botão */
+    padding: 10px 20px;
+    /* define o espaçamento interno */
+    font-size: 16px;
+    /* define o tamanho da fonte */
+    background-color: #4cafa7;
+    /* define a cor de fundo */
+    color: #181717;
+    /* define a cor do texto */
+    border-radius: 10px;
+    /* borda arredondada. */
+    cursor: pointer;
+    /* tipo de cursor quando o mouse passa sobre o botão */
+    transition: background-color 0.3s;
+    /* adiciona uma transição suave ao passar o mouse sobre o botão */
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 20px;
+}
